@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: rgba(178, 249, 226, 0.857);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 31.25rem;
+    width: 1200px;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.right{
+    height: 100%;
+    width: 850px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.rtop{
+    margin: 30px 30px 10px 40px;
+}
+.between input{
+    margin: 5px 0 5px 0;
+    width: 750px;
+    height: 40px;
+    padding-left: 10px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background-color: rgba(194, 194, 194, 0.435);
+}
+.rtop h3{
+    color: blueviolet;
+}
+.between-2 input{
+    margin: 5px 0 5px 0;
+    width: 750px;
+    height: 150px;
+    padding-left: 10px;
+    padding-bottom: 120px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background-color: rgba(194, 194, 194, 0.435);
+}
+.nav-bar-1{
+    padding: 13px 0 13px 0;
+    border-right: 2px solid black;
+}
+.nav-bar-1 span{
+    color: blueviolet;
+    font-size: 40px;
+}
+.nav-bar-1 h3{
+    color: blueviolet;
+}
+.nav-bar-1 p{
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
+.rbootom button{ 
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    margin-top: 10px;
+}

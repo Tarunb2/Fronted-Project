@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(88, 176, 88, 0.991);
+}
+.form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-1{
+    height: 50vh;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+.title{
+    height: 10vh;
+    background-color: rgba(38, 85, 38, 0.991);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.title h2{
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.icons{
+    height: 41px;
+    width: 43px;
+    background-color: rgba(38, 85, 38, 0.991);
+    text-align: center;
+    padding-top: 8px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.call{
+    width: 250px;
+    border: 1.5px solid rgba(122, 114, 114, 0.468);
+    padding-left: 10px;
+    outline: none;
+}
+.call:active{
+    outline: 2px solid rgba(49, 122, 49, 0.991);
+}
+.delet{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.delet a{
+    text-decoration: none;
+    color: rgba(38, 85, 38, 0.991);
+    font-size: small;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.click-2{
+    height: 40px;
+    width: 295px;
+    background-color: rgba(49, 122, 49, 0.991);
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+.footer p{
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}

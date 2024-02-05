@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-muffin-creatives-2468773.jpg);
+    background-size: cover;
+    color: white;
+}
+.nav-bar{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.137);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar h2{
+    font-weight: 300;
+}
+.content{
+
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+    font-size: medium;
+}
+.button{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(255, 97, 152);
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 2px;
+    transition: 0.4s;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+}
+.text-1 p{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+.text-1 h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.text-2{
+    height:45px;
+    width: 130px;
+    background-color: rgb(255, 97, 152);
+    padding-top: 13px;
+    border-radius: 4px;
+    margin-top: 14px;
+    text-align: center;
+    margin-left: 140px;
+}
+.text-2 a{
+    text-decoration: none;
+    color: white;
+}
+.content a:hover{
+    border-bottom: 2px solid rgb(255, 97, 152);
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: rgb(255, 97, 152);
+    width: 90%;
+}
+.text-2:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: rgb(255, 97, 152);
+}
